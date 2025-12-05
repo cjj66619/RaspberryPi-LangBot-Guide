@@ -263,3 +263,17 @@ pip install . -i https://mirrors.aliyun.com/pypi/simple/
 | **想看 QQ 日志** | 查登录报错 | `sudo docker logs napcat --tail 100 -f` |
 
 -----
+---
+
+## ❤️ 致谢 (Acknowledgements)
+
+本教程的实现离不开以下优秀的开源项目，向原作者致以崇高的敬意：
+
+* 🧠 **大脑 (Logic)**: **[LangBot](https://github.com/RockChinQ/LangBot)** by [@RockChinQ](https://github.com/RockChinQ)
+    * 一个强大的 LLM 原生即时通信机器人平台，支持多种模型和插件生态。
+* 🐱 **身体 (Client)**: **[NapCatQQ](https://github.com/NapNeko/NapCatQQ)** by [@NapNeko](https://github.com/NapNeko)
+    * 基于 NTQQ 的现代化无头 Bot 框架，稳定且高效。
+* 🐳 **容器 (Docker)**: **[NapCat-Docker](https://github.com/NapNeko/NapCat-Docker)** by [@mlikiowa](https://github.com/mlikiowa)
+    * 提供了开箱即用的 Docker 镜像支持。
+
+**饮水思源**：如果你觉得本教程对你有帮助，请务必去给以上原作者的仓库点一个 ⭐️ **Star**！
