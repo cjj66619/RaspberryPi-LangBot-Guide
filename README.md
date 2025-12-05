@@ -142,6 +142,8 @@ docker compose up -d
 3.  点击 **“快速登录”** 。
 4.  点击机器人头像（第一次进入需要扫码）。
 5.  **验证**：看到头像亮起，显示“在线”，即成功。
+6.  <img width="1962" height="1319" alt="image" src="https://github.com/user-attachments/assets/fa71bd63-8a94-4f8d-b0c5-8e8d87c1e2db" />
+
 
 -----
 
@@ -222,10 +224,14 @@ pip install . -i https://mirrors.aliyun.com/pypi/simple/
       * 端口：`2280` (这是 LangBot 专门开给 QQ 连的门)。
       * 访问令牌不需要管
       * 点击保存。
+      * <img width="2430" height="1323" alt="image" src="https://github.com/user-attachments/assets/6de82377-0292-4a8d-995a-bae875273764" />
+
   * **NapCat 端** (`http://<树莓派IP>:6099/webui`)：
       * 菜单 -\> **网络配置** -\> **WebSocket (反向)** -\> **添加**。
       * URL：`ws://127.0.0.1:2280/ws` (因为都在树莓派里，填本机 IP 即可)。
       * 启用并保存。
+      * <img width="2449" height="1170" alt="image" src="https://github.com/user-attachments/assets/f717f5e8-d057-4a09-ac23-129e3f4325e0" />
+
       * **验证**：回到 LangBot 页面,刷新。
 
 ### 2\. 接入 AI 模型 (注入灵魂)
@@ -240,6 +246,8 @@ pip install . -i https://mirrors.aliyun.com/pypi/simple/
       * 找到 `default` 流水线。
       * **对话模型**：选择刚才添加的 AI 模型。
       * 保存。
+      * <img width="921" height="366" alt="image" src="https://github.com/user-attachments/assets/82c304b4-e56e-401a-8b4d-07c1bc28afc4" />
+
 
 -----
 
